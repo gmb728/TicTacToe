@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,9 @@
 		DD5CA69E221EC4D600056CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5CA69C221EC4D600056CD9 /* Main.storyboard */; };
 		DD5CA6A0221EC4D900056CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5CA69F221EC4D900056CD9 /* Assets.xcassets */; };
 		DD5CA6A3221EC4D900056CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5CA6A1221EC4D900056CD9 /* LaunchScreen.storyboard */; };
+		DD5CA6AB221ECAA300056CD9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5CA6AA221ECAA300056CD9 /* GridView.swift */; };
+		DD5CA6AD221ED2FA00056CD9 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5CA6AC221ED2FA00056CD9 /* InfoView.swift */; };
+		DD5CA6AF221FE3E400056CD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5CA6AE221FE3E400056CD9 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DD5CA69F221EC4D900056CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5CA6A2221EC4D900056CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD5CA6A4221EC4D900056CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5CA6AA221ECAA300056CD9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		DD5CA6AC221ED2FA00056CD9 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		DD5CA6AE221FE3E400056CD9 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				DD5CA698221EC4D600056CD9 /* AppDelegate.swift */,
 				DD5CA69A221EC4D600056CD9 /* ViewController.swift */,
+				DD5CA6AE221FE3E400056CD9 /* Grid.swift */,
 				DD5CA69C221EC4D600056CD9 /* Main.storyboard */,
+				DD5CA6AC221ED2FA00056CD9 /* InfoView.swift */,
+				DD5CA6AA221ECAA300056CD9 /* GridView.swift */,
 				DD5CA69F221EC4D900056CD9 /* Assets.xcassets */,
 				DD5CA6A1221EC4D900056CD9 /* LaunchScreen.storyboard */,
 				DD5CA6A4221EC4D900056CD9 /* Info.plist */,
@@ -100,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = DD5CA690221EC4D600056CD9 /* Build configuration list for PBXProject "TicTacToe" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5CA69B221EC4D600056CD9 /* ViewController.swift in Sources */,
+				DD5CA6AB221ECAA300056CD9 /* GridView.swift in Sources */,
 				DD5CA699221EC4D600056CD9 /* AppDelegate.swift in Sources */,
+				DD5CA6AF221FE3E400056CD9 /* Grid.swift in Sources */,
+				DD5CA6AD221ED2FA00056CD9 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
